@@ -14,6 +14,7 @@
 - [插件清单](./manifest.md) - `openclaw.plugin.json` 配置详解
 - [Agent Tools](./agent-tools.md) - 注册 LLM 可调用的工具
 - [Hooks](./hooks.md) - 事件驱动的自动化
+- [Skills](./skills.md) - 注册可复用技能模块
 - [Channels](./channels.md) - 连接聊天平台
 - [Providers](./providers.md) - 接入 AI 模型
 
