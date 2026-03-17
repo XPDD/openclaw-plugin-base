@@ -1,0 +1,25 @@
+{
+  "id": "my-plugin",
+  "name": "My Plugin",
+  "description": "A sample OpenClaw plugin",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "apiKey": {
+        "type": "string",
+        "description": "API key for the service"
+      }
+    }
+  },
+  "uiHints": {
+    "properties": {
+      "apiKey": {
+        "label": "API Key",
+        "placeholder": "Enter your API key",
+        "sensitive": true
+      }
+    }
+  }
+}
