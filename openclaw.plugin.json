@@ -1,0 +1,20 @@
+{
+  "id": "openclaw-plugin-base",
+  "name": "OpenClaw Plugin Base",
+  "description": "A baseline template for creating OpenClaw plugins",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "enabled": {
+        "type": "boolean",
+        "default": true,
+        "description": "Enable or disable the plugin"
+      },
+      "apiKey": {
+        "type": "string",
+        "description": "API key for external service integration (optional)"
+      }
+    }
+  }
+}
